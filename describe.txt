@@ -1,0 +1,52 @@
+Topic: notify.claims.claim_change.ocean_client  PartitionCount: 3   ReplicationFactor: 3    Configs: retention.ms=1209600000
+    Topic: notify.claims.claim_change.ocean_client  Partition: 0    Leader: 2   Replicas: 2,1,3 Isr: 3,2,1
+    Topic: notify.claims.claim_change.ocean_client  Partition: 1    Leader: 3   Replicas: 3,2,1 Isr: 3,2,1
+    Topic: notify.claims.claim_change.ocean_client  Partition: 2    Leader: 3   Replicas: 1,3,2 Isr: 3,2,1
+Topic: notify.general_agreement.property.gen_agree_change   PartitionCount: 4   ReplicationFactor: 3    Configs: retention.ms=1209600000
+    Topic: notify.general_agreement.property.gen_agree_change   Partition: 0    Leader: 3   Replicas: 3,1,2 Isr: 3,2,1
+    Topic: notify.general_agreement.property.gen_agree_change   Partition: 1    Leader: 2   Replicas: 1,2,3 Isr: 3,2,1
+    Topic: notify.general_agreement.property.gen_agree_change   Partition: 2    Leader: 2   Replicas: 2,3,1 Isr: 3,2,1
+    Topic: notify.general_agreement.property.gen_agree_change   Partition: 3    Leader: 3   Replicas: 3,2,1 Isr: 3,2,1
+Topic: notify.general_agreement.property.gen_agree_confirmation PartitionCount: 4   ReplicationFactor: 3    Configs: retention.ms=1209600000
+    Topic: notify.general_agreement.property.gen_agree_confirmation Partition: 0    Leader: 2   Replicas: 2,3,1 Isr: 3,2,1
+    Topic: notify.general_agreement.property.gen_agree_confirmation Partition: 1    Leader: 3   Replicas: 3,1,2 Isr: 3,2,1
+    Topic: notify.general_agreement.property.gen_agree_confirmation Partition: 2    Leader: 2   Replicas: 1,2,3 Isr: 3,2,1
+    Topic: notify.general_agreement.property.gen_agree_confirmation Partition: 3    Leader: 2   Replicas: 2,1,3 Isr: 3,2,1
+Topic: notify.ocean.claim.claim_registration.claim_client   PartitionCount: 4   ReplicationFactor: 3    Configs: retention.ms=604800000
+    Topic: notify.ocean.claim.claim_registration.claim_client   Partition: 0    Leader: 2   Replicas: 1,2,3 Isr: 3,2,1
+    Topic: notify.ocean.claim.claim_registration.claim_client   Partition: 1    Leader: 2   Replicas: 2,3,1 Isr: 3,2,1
+    Topic: notify.ocean.claim.claim_registration.claim_client   Partition: 2    Leader: 3   Replicas: 3,1,2 Isr: 3,2,1
+    Topic: notify.ocean.claim.claim_registration.claim_client   Partition: 3    Leader: 3   Replicas: 1,3,2 Isr: 3,2,1
+Topic: notify.ocean.claim.status_change.claim_client    PartitionCount: 3   ReplicationFactor: 3    Configs: retention.ms=1209600000
+    Topic: notify.ocean.claim.status_change.claim_client    Partition: 0    Leader: 2   Replicas: 2,3,1 Isr: 3,2,1
+    Topic: notify.ocean.claim.status_change.claim_client    Partition: 1    Leader: 3   Replicas: 3,1,2 Isr: 3,2,1
+    Topic: notify.ocean.claim.status_change.claim_client    Partition: 2    Leader: 2   Replicas: 1,2,3 Isr: 3,2,1
+Topic: notify.ocean.financial.financial_account_data    PartitionCount: 4   ReplicationFactor: 3    Configs: retention.ms=604800000
+    Topic: notify.ocean.financial.financial_account_data    Partition: 0    Leader: 2   Replicas: 2,3,1 Isr: 3,2,1
+    Topic: notify.ocean.financial.financial_account_data    Partition: 1    Leader: 3   Replicas: 3,1,2 Isr: 3,2,1
+    Topic: notify.ocean.financial.financial_account_data    Partition: 2    Leader: 2   Replicas: 1,2,3 Isr: 3,2,1
+    Topic: notify.ocean.financial.financial_account_data    Partition: 3    Leader: 2   Replicas: 2,1,3 Isr: 3,2,1
+Topic: notify.ocean.financial.financial_data    PartitionCount: 4   ReplicationFactor: 3    Configs: retention.ms=604800000
+    Topic: notify.ocean.financial.financial_data    Partition: 0    Leader: 3   Replicas: 3,1,2 Isr: 3,2,1
+    Topic: notify.ocean.financial.financial_data    Partition: 1    Leader: 2   Replicas: 1,2,3 Isr: 3,2,1
+    Topic: notify.ocean.financial.financial_data    Partition: 2    Leader: 2   Replicas: 2,3,1 Isr: 3,2,1
+    Topic: notify.ocean.financial.financial_data    Partition: 3    Leader: 3   Replicas: 3,2,1 Isr: 3,2,1
+Topic: notify.space_policy.property.external_systems_policy_change  PartitionCount: 10  ReplicationFactor: 3    Configs: retention.ms=1209600000
+    Topic: notify.space_policy.property.external_systems_policy_change  Partition: 0    Leader: 3   Replicas: 3,1,2 Isr: 3,2,1
+    Topic: notify.space_policy.property.external_systems_policy_change  Partition: 1    Leader: 2   Replicas: 1,2,3 Isr: 3,2,1
+    Topic: notify.space_policy.property.external_systems_policy_change  Partition: 2    Leader: 2   Replicas: 2,3,1 Isr: 3,2,1
+    Topic: notify.space_policy.property.external_systems_policy_change  Partition: 3    Leader: 3   Replicas: 3,2,1 Isr: 3,2,1
+    Topic: notify.space_policy.property.external_systems_policy_change  Partition: 4    Leader: 3   Replicas: 1,3,2 Isr: 3,2,1
+    Topic: notify.space_policy.property.external_systems_policy_change  Partition: 5    Leader: 2   Replicas: 2,1,3 Isr: 3,2,1
+    Topic: notify.space_policy.property.external_systems_policy_change  Partition: 6    Leader: 3   Replicas: 3,1,2 Isr: 3,2,1
+    Topic: notify.space_policy.property.external_systems_policy_change  Partition: 7    Leader: 2   Replicas: 1,2,3 Isr: 3,2,1
+    Topic: notify.space_policy.property.external_systems_policy_change  Partition: 8    Leader: 2   Replicas: 2,3,1 Isr: 3,2,1
+    Topic: notify.space_policy.property.external_systems_policy_change  Partition: 9    Leader: 3   Replicas: 3,2,1 Isr: 3,2,1
+Topic: notify.space_policy.property.policy_confirmation PartitionCount: 3   ReplicationFactor: 3    Configs: retention.ms=1209600000
+    Topic: notify.space_policy.property.policy_confirmation Partition: 0    Leader: 2   Replicas: 1,2,3 Isr: 3,2,1
+    Topic: notify.space_policy.property.policy_confirmation Partition: 1    Leader: 2   Replicas: 2,3,1 Isr: 3,2,1
+    Topic: notify.space_policy.property.policy_confirmation Partition: 2    Leader: 3   Replicas: 3,1,2 Isr: 3,2,1
+Topic: notify.space_policy.property.policy_payment_notification PartitionCount: 3   ReplicationFactor: 3    Configs: retention.ms=1209600000
+    Topic: notify.space_policy.property.policy_payment_notification Partition: 0    Leader: 2   Replicas: 1,2,3 Isr: 3,2,1
+    Topic: notify.space_policy.property.policy_payment_notification Partition: 1    Leader: 2   Replicas: 2,3,1 Isr: 3,2,1
+    Topic: notify.space_policy.property.policy_payment_notification Partition: 2    Leader: 3   Replicas: 3,1,2 Isr: 3,2,1

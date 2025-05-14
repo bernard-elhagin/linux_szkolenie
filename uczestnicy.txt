@@ -85,3 +85,4 @@
 85	Mateusz Ziółkowski	Administracja	Linia komend	Skrypty shellowe	Instalacja	Konfiguracja	Inne (rozwiń w kolejnym pytaniu)	Historia
 86	Jędrzej Zwierzykowski	Linia komend	Administracja	Skrypty shellowe	Konfiguracja	Instalacja	Historia	Inne (rozwiń w kolejnym pytaniu)
 87	Przemysław Jero	Linia komend	Skrypty shellowe	Administracja	Konfiguracja	Historia	Instalacja	Inne (rozwiń w kolejnym pytaniu)
+88	Piotr Ryterski	Administracja	Instalacja	Skrypty shellowe	Konfiguracja	Linia komend	Inne (rozwiń w kolejnym pytaniu)	Historia

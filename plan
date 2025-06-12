@@ -1,0 +1,34 @@
+1. Linia komend = terminal + shell
+    a. jaki terminal?
+    b. jaki shell?
+
+2. Śmiganie po linii komend.
+    $WORDCHARS
+    ^a  ^e - początek / koniec
+    M-b  M-f - w tył / w przód o słowo
+    ^<left>  ^<right> - w tył / w przód o słowo
+    ^y - paste
+    ^x^u - undo
+    ^u  ^k - usuń do początku / do końca linii
+    M-d - usuń do końca słowa
+    ^/ - usuń jeden znak
+    M-. - ostatni ciąg z poprzedniej komendy (można
+          powtarzać)
+    ^x^k - usuń całą linię
+    ^x^e - otwórz w edytorze
+
+2. Anatomia komendy, aliasy, man(ual)
+
+3. Poruszanie się po filesystemie
+    pwd, cd, ls, touch, mkdir, rm, mv, cp
+
+4. Szukanie
+    a. plików - find
+    b. w plikach - grep (wyrażenia regularne)
+    c. w historii - !!, !x, ^r, ^s, M-p, M-n
+
+5. STDIN, STDOUT, STDERR, IPO
+
+6. head, tail, cat, less, sort, cut, tr, sed + awk
+
+7. Łączenie komend za pomocą |

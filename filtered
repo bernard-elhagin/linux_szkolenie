@@ -1,0 +1,9 @@
+dbo.pol_application
+dbo.pol_application_data
+dbo.pol_application_object
+dbo.pol_application_partners
+dbo.pol_policy
+dbo.pol_policy_data
+dbo.pol_policy_object
+dbo.pol_policy_object_role
+dbo.pol_policy_partners

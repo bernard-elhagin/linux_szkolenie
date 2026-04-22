@@ -1,0 +1,3 @@
+1. Show in Vim how to build bootstrap string.
+
+2. 

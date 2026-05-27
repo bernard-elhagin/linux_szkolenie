@@ -4,7 +4,7 @@
 
 2. Śmiganie po linii komend.
     $WORDCHARS
-    ^a  ^e - początek / koniec
+    ^a  ^e - początek / koniec linii
     M-b  M-f - w tył / w przód o słowo
     ^<left>  ^<right> - w tył / w przód o słowo
     ^y - paste
@@ -16,6 +16,7 @@
           powtarzać)
     ^x^k - usuń całą linię
     ^x^e - otwórz w edytorze
+    M-m - wklej kopię poprzedniego argumentu
 
 2. Anatomia komendy, aliasy, man(ual)
 
@@ -32,3 +33,7 @@
 6. head, tail, cat, less, sort, cut, tr, sed + awk
 
 7. Łączenie komend za pomocą |
+
+8. Process expansion
+
+paste <(blablabla) <(blablabla) | sed 's/^/mv /' | bash

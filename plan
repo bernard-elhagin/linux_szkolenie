@@ -1,24 +1,35 @@
 1. Linia komend = terminal + shell
+    0. window manager vs desktop environment
     a. jaki terminal?
     b. jaki shell?
+
+    tab completion
+    kolory
+    WORDCHARS
 
 2. Śmiganie po linii komend.
     $WORDCHARS
     ^a  ^e - początek / koniec linii
+
     M-b  M-f - w tył / w przód o słowo
     ^<left>  ^<right> - w tył / w przód o słowo
-    ^y - paste
-    ^x^u - undo
+    WORDCHARS="_/"     asdf/asdfasdf CTRL-W
+
     ^u  ^k - usuń do początku / do końca linii
     M-d - usuń do końca słowa
-    ^/ - usuń jeden znak
+    ^x^u - undo
+    ^y - paste
     M-. - ostatni ciąg z poprzedniej komendy (można
           powtarzać)
     ^x^k - usuń całą linię
     ^x^e - otwórz w edytorze
     M-m - wklej kopię poprzedniego argumentu
 
-2. Anatomia komendy, aliasy, man(ual)
+    ^przed^po
+    !!:gs/przed/po
+
+    man bash /READLINE (bind -P)
+    man zsh  /ZLE FUNCTIONS (bindkey)
 
 3. Poruszanie się po filesystemie
     pwd, cd, ls, touch, mkdir, rm, mv, cp
@@ -36,4 +47,6 @@
 
 8. Process expansion
 
-paste <(blablabla) <(blablabla) | sed 's/^/mv /' | bash
+paste <(blablabla) <(blablabla)
+
+9. WORDCHARS=$(grep '#WORDCHARS' ~/.zsh/base.zsh | sed -r 's/^[^=]+=//')
